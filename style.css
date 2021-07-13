@@ -83,6 +83,78 @@ body{
 
 
 
-    /*=========================
+  /*=========================
      main-section end
+   ==========================*/
+
+
+  /*=========================
+     media-Queries strat
+   ==========================*/
+
+  @media only screen and (max-width:688px){
+    header{
+      width: 100%;
+      height: 695px;
+      background-color: #2D25A0;
+    }
+    .img-text{
+      flex-direction: column;
+    }
+    .text-button{
+      margin: 100px 66px 30px 30px;
+    }
+    .text{
+      font-size: 36px;
+    }
+    .button{
+      bottom: -30px;
+    }
+    .images img{
+      width: 329px;
+      height: 259px;
+      margin: 50px 16px;
+    }
+    .box{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      margin: 47px 30px;
+    }
+  }
+
+  /* tablat */
+
+  @media only screen and (min-width:992px){
+    header{
+      width: 100%;
+      height: 695px;
+      background-color: #2D25A0;
+    }
+    .text-button{
+      margin: 207px 102px 240px 156px;
+    }
+    .haf-width{
+      width: 50%;
+    }
+    .text{
+      font-size: 36px;
+    }
+    .button{
+      bottom: -30px;
+    }
+    .images img{
+      width: 456px;
+      height: 338px;
+      margin: 153px 141px 86px 0px;
+    }
+    .box{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      margin: 70px 180px;
+      grid-gap: 60px;
+    }
+  }
+
+  /*=========================
+     media-Queries end
    ==========================*/
