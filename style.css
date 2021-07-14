@@ -190,9 +190,9 @@ body{
 
     /* palyers list box start */
     .box{
-     display: flex;
-     flex-direction: column;
-     align-items: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
     /* palyers list box end */
 
