@@ -45,6 +45,10 @@ body{
     width: 556px;
     height: 438px;
     margin: 153px 141px 86px 0px;
+    transition: 4s;
+  }
+  .images img:hover{
+    transform: rotate(370deg);
   }
   /*=======================
     header-section end
@@ -239,10 +243,9 @@ body{
       margin: 0px 10px;
     }
 
+     /* ipad */
+
   }
-
-  /* ipad */
-
   /*=========================
      media-Queries end
    ==========================*/
