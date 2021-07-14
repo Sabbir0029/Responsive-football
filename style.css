@@ -156,6 +156,34 @@ body{
      main-section end
    ==========================*/
 
+   /*========================
+    footer-section strat
+    ======================== */
+    .footer-section{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .footer-section p{
+      margin: 20px 0px;
+    }
+   .footer-img img{
+    width: 484px;
+    height: 110px;
+   }
+   .footer-icon .fa{
+     border: 1px solid #969BAB;
+     border-radius: 50px;
+     padding: 10px 10px;
+     margin: 0px 16px;
+     color: #969BAB;
+     background-color:#969bab4d ;
+   }
+    /*======================
+     footer-section end
+     ======================= */
+
+
 
   /*=========================
      media-Queries strat
@@ -201,6 +229,15 @@ body{
         display: none;
       }
     /* contact us end */
+    /* footer strat */
+    .footer-img img{
+      width: 280px;
+      height: 110px;
+     }
+     .footer-icon .fa{
+      padding: 8px 8px;
+      margin: 0px 10px;
+    }
 
   }
 
