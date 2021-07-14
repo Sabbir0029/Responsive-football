@@ -16,14 +16,14 @@ body{
     height: 677px;
     background-color: #2D25A0;
   }
+  .img-text{
+    display: flex;
+  }
   .text-button{
     margin: 207px 102px 240px 156px;
   }
   .haf-width{
     width: 50%;
-  }
-  .img-text{
-    display: flex;
   }
   .text{
     font-size: 64px;
@@ -92,6 +92,7 @@ body{
      media-Queries strat
    ==========================*/
 
+   /* Mobael */
   @media only screen and (max-width:688px){
     header{
       width: 100%;
@@ -122,7 +123,7 @@ body{
     }
   }
 
-  /* tablat */
+  /* ipad */
 
   /*=========================
      media-Queries end
