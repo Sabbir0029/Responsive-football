@@ -53,6 +53,8 @@ body{
   /*=========================
      main-section strat
    ==========================*/
+
+   /* palyers list box strat */
   .box{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -80,9 +82,75 @@ body{
     font-weight: 700;
     color: #18191F;
   }
+  /* palyers list box end */
 
+  /* contact us strat */
 
-
+  .contact-text{
+    text-align: center;
+  }
+  .contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+  }
+  .contact-box{
+    width: 800px;
+    height: 500px;
+    background-color: #ecf0f3;
+    border-radius: 10px;
+    box-shadow:10px 10px 10px  #cbced1, -10px -10px 15px white;
+    padding: 50px 200px;
+  }
+  .full-name{
+    margin-bottom: 30px;
+    border-radius: 20px;
+    box-shadow: inset 8px 8px 15px  #cbced1, inset -10px -10px 15px white;
+  }
+  .full-name input{
+    background: none;
+    border: none;
+    outline: none;
+    color: #0645f5;
+    padding: 12px;
+  }
+  .email{
+    margin-bottom: 30px;
+    border-radius: 20px;
+    box-shadow: inset 8px 8px 15px  #cbced1, inset -10px -10px 15px white;
+  }
+  .email input{
+    background: none;
+    border: none;
+    outline: none;
+    color: #0645f5;
+    padding: 12px;
+  }
+  .input-text{
+    margin-bottom: 30px;
+    border-radius: 20px;
+    box-shadow: inset 8px 8px 15px  #cbced1, inset -10px -10px 15px white;
+  }
+  .input-text input{
+    background: none;
+    border: none;
+    outline: none;
+    color: #0645f5;
+    padding: 12px;
+  }
+  .contact-btn{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 100%;
+    height: 50px;
+    background: red;
+    color: white;
+    border-radius: 20px;
+   }
+  /* contact us end */
   /*=========================
      main-section end
    ==========================*/
