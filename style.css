@@ -89,7 +89,7 @@ body{
   .contact-text{
     text-align: center;
   }
-  .contact{
+  .contact-area{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -163,6 +163,7 @@ body{
 
    /* Mobael */
   @media only screen and (max-width:688px){
+    /*header-section strat*/
     header{
       width: 100%;
       height: 695px;
@@ -185,11 +186,22 @@ body{
       height: 259px;
       margin: 50px 16px;
     }
+    /*header-section end*/
+
+    /* palyers list box start */
     .box{
      display: flex;
      flex-direction: column;
      align-items: center;
     }
+    /* palyers list box end */
+
+    /* contact us strat */
+      .contact{
+        display: none;
+      }
+    /* contact us end */
+
   }
 
   /* ipad */
