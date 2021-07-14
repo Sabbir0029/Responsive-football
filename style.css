@@ -97,8 +97,8 @@ body{
     height: 700px;
   }
   .contact-box{
-    width: 800px;
-    height: 500px;
+    width: 500px;
+    height: 400px;
     background-color: #ecf0f3;
     border-radius: 10px;
     box-shadow:10px 10px 10px  #cbced1, -10px -10px 15px white;
@@ -128,12 +128,12 @@ body{
     color: #0645f5;
     padding: 12px;
   }
-  .input-text{
+  .textarea{
     margin-bottom: 30px;
     border-radius: 20px;
     box-shadow: inset 8px 8px 15px  #cbced1, inset -10px -10px 15px white;
   }
-  .input-text input{
+  .textarea{
     background: none;
     border: none;
     outline: none;
@@ -151,6 +151,7 @@ body{
     border-radius: 20px;
    }
   /* contact us end */
+
   /*=========================
      main-section end
    ==========================*/
