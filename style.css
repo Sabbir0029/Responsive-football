@@ -87,6 +87,25 @@ body{
     color: #18191F;
   }
   /* palyers list box end */
+  /* football live stream strat */
+  .banner-img img{
+    margin-left: 90px;
+    margin-bottom: 40px;
+  }
+  .btn {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 27px;
+    padding: 10px 24px;
+    background: #E02C6D;
+    color: #FFFFFF;
+    margin-left: 90px;
+  }
+  .btn .fa{
+    padding-left: 5px;
+  }
+  /* football live stream end */
 
   /* contact us strat */
 
@@ -227,6 +246,11 @@ body{
       align-items: center;
     }
     /* palyers list box end */
+    /* football live stream strat */
+    .live-stream{
+      display: none;
+    }
+    /* football live stream end */
 
     /* contact us strat */
       .contact{
@@ -237,6 +261,7 @@ body{
     .footer-img img{
       width: 280px;
       height: 110px;
+      margin-top: 50px;
      }
      .footer-icon .fa{
       padding: 8px 8px;
